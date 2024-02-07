@@ -38,3 +38,4 @@
 // #define SUPPORT_TRANSACTIONS
 
 #define TFT_DEFAULT_ROTATION 5 // use this rotation as the default (this is not used by the library itself)
+#define TFT_ROTATION_START   4
