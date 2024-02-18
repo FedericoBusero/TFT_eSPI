@@ -24,7 +24,12 @@
 
 // Only ONE line below should be uncommented to define your setup.  Add extra lines and files as needed.
 
-#include <User_Setups/SetupXXX_FriedBadge2024.h>  // Setup file for Fri3d badge 2024
+#if defined(CONFIG_IDF_TARGET_ESP32S3) // ESP32-S3 : Fri3d badge 2024
+#include <User_Setups/SetupXXX_FriedBadge2024.h>
+#else // ESP32 : Fri3d badge 2022
+#include <User_Setups/SetupXXX_FriedBadge2022.h>
+#endif
+
 // #include <User_Setup.h>           // Default setup is root library folder
 
 //#include <User_Setups/Setup1_ILI9341.h>  // Setup file for ESP8266 configured for my ILI9341
