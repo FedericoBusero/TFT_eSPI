@@ -33,6 +33,7 @@
 #define SPI_FREQUENCY  80000000
 
 // #define SUPPORT_TRANSACTIONS
+
 #define TFT_WIDTH  240
 #define TFT_HEIGHT 296
 
