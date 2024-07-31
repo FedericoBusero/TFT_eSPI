@@ -5,9 +5,6 @@
 
 #define USE_HSPI_PORT
 
-#define TFT_WIDTH  240
-#define TFT_HEIGHT 296
-
 #define TFT_RGB_ORDER TFT_BGR  // Colour order Blue-Green-Red
 
 #define TFT_INVERSION_OFF
@@ -36,6 +33,8 @@
 #define SPI_FREQUENCY  80000000
 
 // #define SUPPORT_TRANSACTIONS
+#define TFT_WIDTH  240
+#define TFT_HEIGHT 296
 
 #define CGRAM_OFFSET      // Library will add offsets required
 
