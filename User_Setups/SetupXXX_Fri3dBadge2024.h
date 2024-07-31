@@ -32,12 +32,15 @@
 // #define SPI_FREQUENCY  40000000
 #define SPI_FREQUENCY  80000000
 
+// #define TFT_WIDTH  296
+// #define TFT_HEIGHT 240
+
+
 // #define SUPPORT_TRANSACTIONS
 
 #define TFT_WIDTH  240
 #define TFT_HEIGHT 296
 
 #define CGRAM_OFFSET      // Library will add offsets required
-
 #define TFT_DEFAULT_ROTATION 5 // use this rotation as the default (this is not used by the library itself)
 #define TFT_ROTATION_START   4
