@@ -4,6 +4,7 @@
 #define ST7789_DRIVER     // Configure all registers
 
 #define USE_HSPI_PORT
+
 #define TFT_WIDTH  240
 #define TFT_HEIGHT 296
 
