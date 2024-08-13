@@ -1,9 +1,7 @@
 # Fri3d fork of TFT_eSPI
-This is a fork of the TFT_eSPI library for the Fri3d badges. It adds following features to the library:
-* Support for ST7789/GC9307 round rectangle display 296x240 (ST7789_DRIVER :  ST7789_Rotation.h): support for mirrored rotations (use setRotation values 4-7)
+This is a fork of the TFT_eSPI library for the Fri3d badges. It adds board definitions for the fri3d badge:
 * Added user setup files for fri3d badge 2022 & 2024: SetupXXX_Fri3dBadge2022.h or SetupXXX_Fri3dBadge2024.h 
-* User_Setup_Select.h automatically selects badge 2022 or 2024 user setup file (based on ESP32 versus ESP32-S3 architecture) for easy Arduino IDE support. In PlatformIO settings can be overrruled by defining USER_SETUP_LOADED.
-
+* User_Setup_Select.h automatically selects Fri3d badge 2022 or 2024 user setup file (based on ESP32 versus ESP32-S3 architecture) for easy Arduino IDE support. In PlatformIO settings can be overrruled by defining USER_SETUP_LOADED.
 
 # Discussions
 A ["Discussions"](https://github.com/Bodmer/TFT_eSPI/discussions) facility has been added for Q&A etc. Use the ["Issues"](https://github.com/Bodmer/TFT_eSPI/issues) tab only for problems with the library. Thanks!
